@@ -1,0 +1,43 @@
+.flexContainer {
+    display: flex;
+    height: 48px;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 0.375rem;
+    background-color: #f9fafb;
+    padding: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .flexContainer:hover {
+    background-color: #e0f2fe;
+    color: #2563eb;
+  }
+  .linkIcon{
+    width: 1.5rem
+  }
+  .linkName{
+    display: none;
+  }
+  .activeLink{
+    background-color: #e0f2fe;
+    color: #2563eb;
+  }
+  
+  @media (min-width: 768px) {
+    .flexContainer {
+      flex-grow: 0;
+      justify-content: flex-start;
+      padding: 0.5rem;
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+    }
+    .linkName{
+        display: block;
+      }
+  }
+  
