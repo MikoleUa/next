@@ -14,8 +14,9 @@
   }
   
   .flexContainer:hover {
-    background-color: #e0f2fe;
-    color: #2563eb;
+    
+    background-color: #F55823;
+    color: #e0f2fe;
   }
   .linkIcon{
     width: 1.5rem
@@ -24,8 +25,8 @@
     display: none;
   }
   .activeLink{
-    background-color: #e0f2fe;
-    color: #2563eb;
+    background-color: #F55823;
+    color: #e0f2fe;
   }
   
   @media (min-width: 768px) {
